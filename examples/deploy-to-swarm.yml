@@ -1,4 +1,4 @@
-name: Deploy to Swarm (Docker Swarm)
+name: Deploy to Swarm (Docker Swarm.)
 
 on:
   push:
