@@ -1,4 +1,4 @@
-name: End to End CI/CD workflow for Java Applicaton with Maven, Sonar and k8s Intergation
+name: End to End CI/CD workflow for Java Applicaton with Maven, Sonar and k8s Intergation.
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       with:
         java-version: 12
 
-    - name: maven target # change accordingly
+    - name: maven target
       run: mvn clean install
 
     - name: Perform analysis on Sonar Qube
